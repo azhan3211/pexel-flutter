@@ -1,0 +1,81 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2245163705087138109",
+      "lastPropertyId": "3:2236556886729620709",
+      "name": "PhotoEntity",
+      "properties": [
+        {
+          "id": "1:2937520206200309154",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1879299464835992365",
+          "name": "page",
+          "type": 6
+        },
+        {
+          "id": "3:2236556886729620709",
+          "name": "perPage",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8266799906813061970",
+      "lastPropertyId": "6:8291215643039235305",
+      "name": "PhotosEntity",
+      "properties": [
+        {
+          "id": "1:3528855351150044904",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4387617391541827346",
+          "name": "photographer",
+          "type": 9
+        },
+        {
+          "id": "3:6659652859016560105",
+          "name": "imageUrl",
+          "type": 9
+        },
+        {
+          "id": "4:8825210009566472181",
+          "name": "imageOriginalUrl",
+          "type": 9
+        },
+        {
+          "id": "5:7155185041406915276",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "6:8291215643039235305",
+          "name": "photographerImage",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:8266799906813061970",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
